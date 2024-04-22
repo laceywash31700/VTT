@@ -1,0 +1,25 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(5, 50px); /* Adjust the number of columns and cell size */
+    grid-template-rows: repeat(5, 50px); /* Adjust the number of rows and cell size */
+    gap: 2px; /* Adjust the gap between cells */
+    background-size: cover; /* Cover the entire board */
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 50px; /* Adjust the cell size */
+    height: 50px; /* Adjust the cell size */
+    border: 1px solid black; /* Add borders to cells */
+  }
+  
+  .token {
+    width: 100%; /* Make token fill the cell */
+    height: 100%; /* Make token fill the cell */
+    background-color: blue; /* Example token color */
+    border-radius: 50%; /* Make token circular */
+  }
+  
